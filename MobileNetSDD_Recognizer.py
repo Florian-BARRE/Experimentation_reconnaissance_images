@@ -5,7 +5,7 @@ import cv2
 
 import numpy as np
 
-ia = MultiRecognizer(model_path="./MobileNetSSD_deploy.caffemodel", protocol_path="./MobileNetSSD_deploy.prototxt.txt")
+ia = MultiRecognizer(model_path="./models/MobileNetSSD_deploy.caffemodel", protocol_path="./models/MobileNetSSD_deploy.prototxt.txt")
 webcam = Camera(res_w=800, res_h=800)
 
 while True:
